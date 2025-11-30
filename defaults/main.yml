@@ -1,0 +1,30 @@
+---
+# Lighthouse download URL
+lighthouse_download_url: "https://github.com/VKCOM/lighthouse/archive/refs/heads/master.zip"
+
+# Path to downloaded archive
+lighthouse_archive_path: /tmp/lighthouse.zip
+
+# Path to extracted directory
+lighthouse_extracted_path: /tmp/lighthouse-master
+
+# Web server root directory
+lighthouse_web_root: /var/www/lighthouse
+
+# Web server name
+lighthouse_web_server: nginx
+
+# Nginx configuration path
+lighthouse_nginx_config_path: /etc/nginx/sites-available/lighthouse
+
+# Nginx enabled site path
+lighthouse_nginx_site_enabled_path: /etc/nginx/sites-enabled/lighthouse
+
+# Nginx default site path
+lighthouse_nginx_default_site_path: /etc/nginx/sites-enabled/default
+
+# Download timeout in seconds
+lighthouse_download_timeout: 300
+
+# APT cache valid time in seconds
+lighthouse_apt_cache_valid_time: 3600
